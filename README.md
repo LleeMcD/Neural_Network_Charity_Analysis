@@ -27,6 +27,7 @@ The number of neurons comprising the input layer is equal to the number of featu
 - The ReLU activation function was selected for the hidden layers because it is ideal for looking at positive nonlinear input data for classification or regression.
 - The tanh function was selected for the optimization attempt with the hidden layers because it can be used for classification or regression, and it expands the range between -1 and 1.
 - The Sigmoid activation function was selected for the output layer because the values are normalized to a probability between 0 and 1, which is ideal for binary classification.
+
 ###### Outcome
 Target model performance could not be achieved.
 The following steps were taken to increase model performance:
@@ -34,8 +35,10 @@ The following steps were taken to increase model performance:
 - Additional neurons were added to the first hidden layer, they were increased from 80 to 120 nodes.
 - An third hidden layer was added.
 - The activation function for the first and second layers was changed to tanh.
-
+- 
+The model's weights were saved every 5 epochs and were exported to a HDF5 file for the deliverables.
 Images of the code used for the optimation attempts follow the Summary section below.
+
 #### Summary
 An accuracy score of 75% or greater could not be achieved with this model, the highest score was 73% (0.7258). Linear regression, Random Forest or Support Vector Machine models may be more suited to this data set.
 
