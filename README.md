@@ -37,7 +37,7 @@ The following steps were taken to increase model performance:
 
 Images of the code used for the optimation attempts follow the Summary section below.
 #### Summary
-An accuracy score of 75% or greater could not be achieved with this model, the highest score was . Linear regression, Random Forest or Support Vector Machine models may be more suited to this data set.
+An accuracy score of 75% or greater could not be achieved with this model, the highest score was 73% (0.7258). Linear regression, Random Forest or Support Vector Machine models may be more suited to this data set.
 
 ###### Optimization Attempts Code
 
