@@ -33,7 +33,7 @@ Target model performance could not be achieved.
 The following steps were taken to increase model performance:
 - The variable INCOME_AMT was dropped
 - Additional neurons were added to the first hidden layer, they were increased from 80 to 120 nodes.
-- An third hidden layer was added.
+- A third hidden layer was added.
 - The activation function for the first and second layers was changed to tanh.
 
 The model's weights were saved every 5 epochs and were exported to a HDF5 file for the deliverables.
