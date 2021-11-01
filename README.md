@@ -35,7 +35,7 @@ The following steps were taken to increase model performance:
 - Additional neurons were added to the first hidden layer, they were increased from 80 to 120 nodes.
 - An third hidden layer was added.
 - The activation function for the first and second layers was changed to tanh.
-- 
+
 The model's weights were saved every 5 epochs and were exported to a HDF5 file for the deliverables.
 Images of the code used for the optimation attempts follow the Summary section below.
 
